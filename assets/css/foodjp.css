@@ -1,3 +1,4 @@
+/* HEADER */
 #menu-principal {
   height: 10vh;
 }
@@ -17,6 +18,8 @@
 #menu-principal .container .menu button path {
   stroke: var(--gray);
 }
+
+/* ABOUT */
 
 img {
   width: 100%;

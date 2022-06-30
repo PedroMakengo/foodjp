@@ -42,6 +42,10 @@ ul {
   margin: 0 auto;
 }
 
+#content {
+  padding-block: 5.2rem;
+}
+
 button {
   background: none;
   border: 0;
