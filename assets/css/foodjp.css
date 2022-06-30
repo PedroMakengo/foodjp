@@ -175,6 +175,94 @@
   width: 2rem;
 }
 
+/* LOCATIONS */
+.locations {
+  text-align: center;
+}
+
+.locations h2 {
+  margin-bottom: 2.4rem;
+  font-size: 2.4rem;
+  color: var(--black);
+}
+
+.locations iframe {
+  border-radius: 0.8rem;
+}
+
+.locations form {
+  display: flex;
+  justify-content: space-between;
+
+  height: 4rem;
+  border-radius: 1rem;
+
+  margin-top: 3.2rem;
+}
+
+.locations form button {
+  width: 12.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--gray);
+  border-radius: 1rem 0 0 1rem;
+  border-right: 0;
+}
+
+.locations form button svg {
+  width: 20px;
+}
+
+.locations form input {
+  width: 75%;
+  border: 1px solid var(--gray);
+  border-right: 0;
+  border-left: 0;
+}
+
+.locations form button[type="submit"] {
+  background: var(--red);
+  width: 20%;
+  border-radius: 0px 1rem 1rem 0px;
+  border: 1px solid var(--red);
+}
+
+footer {
+  padding-bottom: 4rem;
+}
+
+footer .container {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 1rem;
+}
+
+footer .container .item-logo {
+  width: 100%;
+}
+
+footer .item h2 {
+  font-size: 1.6rem;
+  font-weight: 400;
+
+  margin-bottom: 1rem;
+  color: var(--black);
+}
+
+footer .item:nth-child(2),
+footer .item:nth-child(3) {
+  width: 46%;
+}
+
+footer .item ul li,
+footer .item ul li a {
+  font-size: 1.4rem;
+  color: var(--gray);
+  text-decoration: none;
+}
+
 img {
   width: 100%;
 }
