@@ -1,0 +1,23 @@
+#menu-principal {
+  height: 10vh;
+}
+
+#menu-principal .container {
+  height: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#menu-principal .container .menu nav {
+  display: none;
+}
+
+#menu-principal .container .menu button path {
+  stroke: var(--gray);
+}
+
+img {
+  width: 100%;
+}

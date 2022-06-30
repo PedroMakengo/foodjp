@@ -1,0 +1,58 @@
+/* === GERAL ========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --red: #da2535;
+  --black: #292929;
+  --gray: #616161;
+  --white: #fbfbfb;
+  --white-200: #f3f3f3;
+
+  font-size: 62.5%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: Poppins;
+  font-size: 1.6rem;
+
+  overflow: overlay;
+  background: var(--white);
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+button {
+  background: none;
+  border: 0;
+}
+
+/* Tratando do Título */
+.logo h1 {
+  font-size: 1.8rem;
+  color: var(--black);
+}
+
+.logo h1 span {
+  color: var(--red);
+}
