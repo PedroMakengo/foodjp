@@ -55,6 +55,126 @@
 .sobre .col-b {
   display: none;
 }
+
+/* FORMA TRADICIONAL */
+.forma-tracional {
+  text-align: center;
+}
+
+.forma-tracional .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.forma-tracional .col-b h2 {
+  padding-top: 5.2rem;
+
+  font-size: 2.4rem;
+  font-weight: 600;
+
+  color: var(--black);
+}
+
+.forma-tracional .col-b p {
+  padding-block: 2.4rem;
+  color: var(--gray);
+}
+
+.forma-tracional .col-b a {
+  color: var(--red);
+}
+
+/* MAIS POPULARES */
+.mais-populares {
+  text-align: center;
+}
+
+.mais-populares h2 {
+  margin-bottom: 8rem;
+}
+
+.mais-populares .content-row {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 8rem;
+}
+
+.mais-populares .content-row article {
+  background: var(--white-200);
+  border-radius: 0.8rem;
+  padding-block: 1.5rem;
+}
+
+.mais-populares .content-row article img {
+  width: 50%;
+  margin-top: -6rem;
+}
+
+.mais-populares .content-row article h3 {
+  color: var(--black);
+  padding-block: 0.6rem;
+}
+
+.mais-populares .content-row article p {
+  color: var(--gray);
+  font-size: 1.6rem;
+}
+
+.mais-populares .content-row article span {
+  font-size: 3.2rem;
+  font-weight: 400;
+  padding-block: 1.3rem;
+}
+
+/* COMENTÁRIOS */
+.comments {
+  text-align: center;
+}
+
+.comments h2 {
+  margin-bottom: 4rem;
+}
+
+.comments .content-row {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 2.8rem;
+}
+
+.comments .content-row article {
+  background: var(--white-200);
+  border-radius: 0.8rem;
+}
+
+.comments .content-row article img {
+  width: 60px;
+  padding-block: 2rem;
+}
+
+.comments .content-row article h3 {
+  font-size: 1.8rem;
+  color: var(--black);
+  padding-block: 1rem;
+}
+
+.comments .content-row article p {
+  color: var(--gray);
+}
+
+.comments .content-row article .estrelas {
+  display: flex;
+  width: 40%;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
+.comments .content-row article .estrelas img {
+  width: 2rem;
+}
+
 img {
   width: 100%;
 }
