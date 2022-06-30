@@ -323,14 +323,14 @@ img {
 
   /* SOBRE */
   .sobre {
-    padding-block: 2rem;
+    padding-block: 4rem;
   }
 
   .sobre .container {
     display: flex;
 
     align-items: center;
-    gap: 15rem;
+    gap: 4rem;
   }
 
   .sobre .container .col-a,
@@ -347,7 +347,45 @@ img {
     width: 80%;
   }
 
+  .sobre h2 {
+    font-size: 4.8rem;
+  }
+
   .sobre a {
     width: 19.2rem;
+  }
+
+  /* FORMA TRADICIONAL */
+  .forma-tracional .container {
+    flex-wrap: nowrap;
+    gap: 8rem;
+  }
+
+  .forma-tracional .container .col-a,
+  .forma-tracional .container .col-b {
+    width: 50%;
+  }
+
+  .forma-tracional .container .col-b {
+    text-align: left;
+  }
+
+  .forma-tracional .col-b h2 {
+    font-size: 4.8rem;
+    color: var(--black);
+    padding-top: 1.5rem;
+  }
+
+  /* MAIS POPULARES */
+  .mais-populares h2 {
+    color: var(--black);
+    font-size: 4.8rem;
+  }
+
+  .mais-populares .content-row {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 3rem;
+    margin-top: 10.4rem;
   }
 }
