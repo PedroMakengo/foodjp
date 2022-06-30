@@ -388,4 +388,54 @@ img {
     gap: 3rem;
     margin-top: 10.4rem;
   }
+
+  /* COMENTÁRIOS */
+  .comments h2 {
+    text-align: left;
+    font-size: 4.8rem;
+  }
+
+  .comments .content-row {
+    flex-wrap: nowrap;
+  }
+
+  .comments .content-row article {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+
+    padding-inline: 3rem;
+  }
+
+  .comments .content-row article .estrelas {
+    margin: auto 0;
+  }
+
+  /* LOCATIONS */
+  .locations h2 {
+    text-align: left;
+    font-size: 4.8rem;
+  }
+
+  .locations iframe {
+    height: 40rem;
+  }
+
+  .locations form {
+    width: 50%;
+    margin: 3rem auto;
+  }
+
+  /* FOOTER */
+  footer {
+    padding-bottom: 10rem;
+  }
+  footer .container {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  footer .container .item-logo {
+    width: 30%;
+  }
 }
